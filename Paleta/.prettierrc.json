@@ -3,6 +3,6 @@
   "singleQuote": true,
   "endOfLine": "lf",
   "tabWidth": 2,
-  "arrowParens" : "always",
+  "arrowParens": "always",
   "printWidth": 80
 }
