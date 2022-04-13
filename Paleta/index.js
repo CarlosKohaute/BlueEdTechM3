@@ -30,12 +30,18 @@ const paletas = [
   },
 ];
 
-app.get('/', (req, res) => {
+app.get('/', function (req, res) {
   res.send('Hello word');
 });
 
 app.get('/paletas/find-paletas', (req, res) => {
   res.send(paletas);
+});
+
+app.get('/paletas/find-paletas/:id', (req, res) => {
+  const idParam = req.params.id;
+  const chosenPaleta = paletas.find((paleta) => paleta.id == idParam);
+  res.send(chosenPaleta)
 });
 
 app.listen(port, () => {
