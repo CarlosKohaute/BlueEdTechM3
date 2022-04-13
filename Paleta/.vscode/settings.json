@@ -2,7 +2,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "files.eol": "/n",
+  "files.eol": "\n",
   "files.insertFinalNewline":true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {

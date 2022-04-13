@@ -30,13 +30,13 @@ const paletas = [
   },
 ];
 
-app.get('/',  (req, res) =>{
+app.get('/', (req, res) => {
   res.send('Hello word');
 });
 
-app.get('/paletas/find-paletas', (req, res) =>{
-  res.send(paletas)
-})
+app.get('/paletas/find-paletas', (req, res) => {
+  res.send(paletas);
+});
 
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost: ${port}👨‍💻`);
