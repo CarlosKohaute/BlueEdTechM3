@@ -1,0 +1,24 @@
+{
+  "name": "paleta",
+  "version": "1.0.0",
+  "description": "Projeto teste",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/CarlosKohaute/BlueEdTechM3.git"
+  },
+  "author": "Carlos Kohaute",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosKohaute/BlueEdTechM3/issues"
+  },
+  "homepage": "https://github.com/CarlosKohaute/BlueEdTechM3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
